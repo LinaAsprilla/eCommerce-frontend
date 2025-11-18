@@ -2,6 +2,8 @@
 
 > Aplicación de e-commerce moderna construida con Next.js 16, React 19, Redux Toolkit y Tailwind CSS.
 
+🌐 **Frontend Desplegado:** [https://ecommerce-frontend-csn8.onrender.com](https://ecommerce-frontend-csn8.onrender.com)
+
 ## 📋 Descripción General
 
 **E-Commerce Frontend** es una plataforma de compra online con:
