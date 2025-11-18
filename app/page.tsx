@@ -77,6 +77,8 @@ export default function Home() {
                     isNew={getRandomIsNew()}
                     colors={getRandomColors()}
                     stock={product.stock}
+                    productId={product.id}
+                    onPaymentSuccess={refetch}
                   />
                 </div>
               ))}
