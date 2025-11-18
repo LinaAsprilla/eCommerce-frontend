@@ -16,7 +16,7 @@ interface CardProps {
   readonly colors?: string[];
 }
 
-export default function CardProduct({
+export default function ProductCard({
   image,
   title,
   brand,

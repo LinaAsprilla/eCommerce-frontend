@@ -1,6 +1,6 @@
 'use client'
 
-import CardProduct from "./components/common/ProductCard";
+import ProductCard from "./components/common/ProductCard";
 import { useProducts } from "./hooks/useProducts";
 import { getRandomImage, getRandomRating, getRandomReviews, getRandomColors, getRandomIsNew } from "./utils/productUtils";
 
@@ -67,7 +67,7 @@ export default function Home() {
             <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
               {products.map((product) => (
                 <div key={product.id} className="w-full h-full">
-                  <CardProduct
+                  <ProductCard
                     image={getRandomImage()}
                     title={product.name}
                     brand={product.description}
